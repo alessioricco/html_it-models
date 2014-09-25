@@ -1,0 +1,15 @@
+".container": {
+	backgroundColor: "white"
+},
+
+".text": {
+	height: "40",
+	width: "90%",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".button": {
+	height: "40",
+	width: "90%",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+}
