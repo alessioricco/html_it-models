@@ -1,5 +1,6 @@
 var index = 0;
 var books = Alloy.createCollection("book");
+// carica la collezione dalla memoria (database)
 books.fetch();
 
 function save(e) {
@@ -17,9 +18,6 @@ function save(e) {
 	// salva il modello
 	book.save();
 	index++;
-
-	// carica la collezione
-	//books.fetch();
 
 	$.title.value = "";
 	$.author.value = "";
@@ -47,8 +45,6 @@ function next() {
 
 function showModel(index) {
 	
-	//books.fetch();
-
 	var model = books.at(index);
 	
 	Ti.API.info(JSON.stringify(model));

@@ -1,9 +1,9 @@
 <Alloy>
 	<Window class="container" layout="vertical">
 
-		<TextField id="title" top="40" class="text" />
-		<TextField id="author" top="10" class="text"/>
-		<TextField id="isbn" top="10" class="text"/>
+		<TextField id="title"  hintText="Titolo" top="40" class="text" />
+		<TextField id="author" hintText="Autore" top="10" class="text"/>
+		<TextField id="isbn"   hinttext="ISBN"   top="10" class="text"/>
 		
 		
 		<Button id="save" top="10" title="salva" class="button" onClick="save"></Button>
